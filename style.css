@@ -104,9 +104,6 @@ body.dark-mode {
     color: #ffffff;
 }
 
-/* body.dark-mode .header-container {
-} */
-
 .header-container {
     display: flex;
     justify-content: space-between; 
@@ -217,7 +214,6 @@ body.dark-mode .nav-menu li a {
         transition: 0.3s;
     }
 
-    /* ლამაზი ხაზის ეფექტი */
     .left-header ul li a::after {
         content: '';
         position: absolute;
