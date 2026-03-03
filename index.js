@@ -1,6 +1,6 @@
 const themeSwitch = document.querySelector('.switch input');
 
-themeSwitch.addEventListener('change', () => {
+themeSwitch.addEventListener('change', function() {
     if (this.checked) {
         document.body.classList.add('dark-mode');
     } else {
